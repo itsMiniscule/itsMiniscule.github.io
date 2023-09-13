@@ -1,0 +1,150 @@
+.header{
+    color: #fff;
+}
+
+.home{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+
+#img1{
+    float: left;
+    margin-right: 610px;
+    margin-left: 115px;
+}
+
+.par1{ 
+   font-family: 'Times New Roman', Times, serif;
+   text-align: left;
+   margin-right: 135px;
+   margin-left: 1020px;
+   border: 1px solid #df5d9a;
+}
+
+#img2{
+    float: right;
+    margin-right: 135px;
+    margin-left: 600px;
+}
+
+.par2{
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 200px;
+    text-align: left;
+    margin-right: 1050px; 
+    margin-left: 110px; 
+    border: 1px solid #df5d9a;
+}
+
+
+.about{ 
+    margin-left: 115px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.room{ 
+    margin-left: 115px; 
+    margin-bottom: 20px;
+}
+
+.familie{
+    margin-left: 115px;
+    margin-bottom: 10px;
+}
+
+div.gallery{
+    margin-left: 115px;
+    margin-bottom: 20px;
+    border: 2px solid #f5c6e5;
+    float: left;
+    width: 200px;
+}
+
+div.gallery:hover{
+    border: 2px solid #df5d9a;
+}
+
+div.gallery img{
+    width: 100%;
+    height: auto;
+}
+
+div.gallery2{
+    margin-left: 115px;
+    margin-bottom: 90px;
+    margin-right: 500px;
+    border: 2px solid #f5c6e5;
+    float: left;
+    width: 200px;
+}
+
+div.gallery2:hover{
+    border: 2px solid #df5d9a;
+}
+
+div.gallery2 img{
+    width: 100%;
+    height: auto;
+}
+
+div.desc{
+    padding: 5px;
+    text-align: center;
+}
+
+.persoonlijkheid{
+    margin-left: 115px;
+    margin-bottom: 20px;
+    padding: 0px;
+}
+
+.hobbies{ 
+    margin-left: 115px;
+    margin-bottom: 20px;
+    padding: 0;
+}
+
+.socials{ 
+    color: #fff;
+    background-color: #f5c6e5;
+    padding: 10px;    
+    text-align: center; 
+}
+
+
+.info{
+    margin: 0; 
+}
+
+
+.table{
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+}
+
+td, th{
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){
+    background-color: #dddddd;
+}
+
+
+.questions{
+    margin: 0;
+}
+
+
+.blog{
+    margin: 0;
+}
+
+.random{
+    margin: 0;
+}
