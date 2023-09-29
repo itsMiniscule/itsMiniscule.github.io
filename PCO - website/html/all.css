@@ -1,0 +1,321 @@
+.nav-bar{
+    color: black;
+} 
+
+/* this is the background color for all pages */
+.body{
+    background-color: #fae9f1;
+}
+
+/* box white */
+
+
+/* index page */
+.index-header{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    line-height: 1.8;
+}
+
+#img-rubikscube{
+    float: left;
+    margin: 100px 200px 0px 110px;
+    border: solid 35px white;
+    border-radius: 10px;
+    box-shadow: 10px 10px #f5c6e5;
+}
+
+.paragraaf_motivatie_tech{ 
+   font-family: 'Times New Roman', Times, serif;
+   border: solid 1px white;
+   margin: 100px 250px 0px 700px;
+   padding: 20px;
+   border-radius: 10px;
+   box-shadow: 10px 10px #f5c6e5;
+   background-color: white;
+}
+
+#list-motivatie-tech{
+    border: solid 1px white;
+    border-radius: 10px;
+    margin: 50px 500px 0px 700px;
+    padding: 10px;
+    box-shadow: 10px 10px #f5c6e5;
+    background-color: white;
+    list-style-position: inside;
+}
+
+.paragraaf_motivatie_crea{
+    font-family: 'Times New Roman', Times, serif;
+    border: solid 1px white;
+    margin: 150px 992px 0px 110px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px #f5c6e5;
+    background-color: white;
+}
+
+#list-motivatie-crea{
+    border: solid 1px white;
+    border-radius: 10px;
+    margin: 50px 1230px 0px 110px;
+    padding: 10px;
+    box-shadow: 10px 10px #f5c6e5;
+    background-color: white;
+    list-style-position: inside;
+}
+
+#img-pink-error{
+    float: right;
+    margin: 0px 110px 900px 0px;
+    border: solid 35px white;
+    border-radius: 10px;
+    box-shadow: 10px 10px #f5c6e5;
+}
+
+/* footer for all pages */
+footer{
+    border: solid 1px #df5d9a;
+    border-radius: 10px;
+    background-color: #df5d9a;
+}
+
+.social-media-icons{
+    display: flex;
+    float: center;
+    padding: 10px;
+    list-style-type: none;
+}
+
+/* profile page */
+.profile-header{ 
+    border: solid 1px white;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 10px 10px #f5c6e5; 
+    text-align: left;
+    margin: 20px 30px 20px 30px;
+    padding: 10px;
+}
+
+.list-header-profiel{
+    list-style-type: none;
+}
+
+.waar-kamer{ 
+    border: solid 1px white;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 10px 10px #f5c6e5; 
+    margin: 20px 30px 20px 30px;
+    padding: 10px;
+}
+
+.familie{
+    border: solid 1px white;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 10px 10px #f5c6e5; 
+    margin: 20px 30px 20px 30px;
+    padding: 10px;
+}
+
+div.gallery{
+    margin-left: 115px;
+    margin-bottom: 20px;
+    border: 2px solid #f5c6e5;
+    float: left;
+    width: 200px;
+}
+
+div.gallery img{
+    width: 100%;
+    height: auto;
+}
+
+div.gallery2{
+    margin-left: 115px;
+    margin-bottom: 90px;
+    margin-right: 500px;
+    border: 2px solid #f5c6e5;
+    float: left;
+    width: 200px;
+}
+
+div.gallery2 img{
+    width: 100%;
+    height: auto;
+}
+
+div.desc{
+    padding: 5px;
+    text-align: center;
+}
+
+.persoonlijkheid{
+    border: solid 1px white;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 10px 10px #f5c6e5; 
+    margin: 20px 30px 20px 30px;
+    padding: 10px;
+}
+
+.hobbies{ 
+    border: solid 1px white;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 10px 10px #f5c6e5; 
+    margin: 20px 30px 20px 30px;
+    padding: 10px;
+}
+
+/* dashboard */
+
+.table{
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+}
+
+td, th{
+    border: 1px solid #df5d9a;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){
+    background-color: #f5c6e5;
+}
+
+/* progressie bar - dashboard */
+.progress-container {
+    width: 80%;
+    margin: 0px 30px 20px 130px;
+    height: 30px;
+    background-color: #f5c6e5;
+}
+
+.progress-bar {
+    width: 50%;
+    height: 100%;
+    background-color: #df5d9a; 
+    transition: width 0.3s ease-in-out;
+}
+
+.legenda{
+    border: solid 1px white;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 10px 10px #f5c6e5;  
+    margin: 20px 10px 0px 10px;
+    padding: 10px;
+}
+
+/* FAQ */
+.questions{
+    margin-left: 115px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.question1{
+    background-color: #df5d9a;
+    width: 500px; height: 50px;
+    padding: 16px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 30px;
+}
+
+.anwser1{
+    background-color: #f5c6e5;
+    width: 500px; height: 50px;
+    padding: 8px;
+    padding-left: 16px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.question2{
+    background-color: #df5d9a;
+    width: 665px; height: 50px;
+    padding: 16px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.anwser2{
+    background-color: #f5c6e5;
+    width: 665px; height: 100px;
+    padding: 8px;
+    padding-left: 16px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.question3{
+    background-color: #df5d9a;
+    width: 700px; height: 50px;
+    padding: 16px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.anwser3{
+    background-color: #f5c6e5;
+    width: 700px; height: 35px;
+    padding: 8px;
+    padding-left: 16px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.question4{
+    background-color: #df5d9a;
+    width: 415px; height: 50px;
+    padding: 16px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.anwser4{
+    background-color: #f5c6e5;
+    width: 415px; height: 50px;
+    padding: 8px;
+    padding-left: 16px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.question5{
+    background-color: #df5d9a;
+    width: 570px; height: 50px;
+    padding: 16px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.anwser5{
+    background-color: #f5c6e5;
+    width: 570px; height: 55px;
+    padding: 8px;
+    padding-left: 16px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+
+.blog{
+    margin: 0;
+}
+
+
+.random{
+    margin: 0;
+}

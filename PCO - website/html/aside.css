@@ -1,0 +1,11 @@
+.aside-menu{
+  background-color: palevioletred;
+  text-align: center;
+  border: 2px solid purple;
+  border-radius: 8px;
+  padding: 5px;
+}
+
+.body{
+  background-image: url();
+}
