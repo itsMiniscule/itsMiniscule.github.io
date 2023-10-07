@@ -13,6 +13,7 @@
     background-color: white;
     border-radius: 10px;
     box-shadow: 10px 10px #f5c6e5;
+    padding: 20px;
 }
 
 /* index page */
@@ -20,55 +21,44 @@
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
     line-height: 1.8;
-    background-color: white;
     padding: 20px;
     border: solid 1px white;
+    background-color: white;
 }
 
 #img-rubikscube{
     float: left;
-    margin: 100px 200px 0px 110px;
-    border: solid 35px white;
+    margin: 50px 180px 0px 110px;
+    border: solid 30px white;
     border-radius: 10px;
+    background-color: white;
     box-shadow: 10px 10px #f5c6e5;
 }
 
 .paragraaf_motivatie_tech{ 
    font-family: 'Times New Roman', Times, serif;
-   margin: 100px 250px 0px 700px;
-   padding: 20px;
-}
-
-#list-motivatie-tech{
-    margin: 50px 500px 0px 700px;
-    padding: 10px;
-    list-style-position: inside;
+   margin: 50px 200px 0px 650px;
+   font-size: 18px;
 }
 
 .paragraaf_motivatie_crea{
     font-family: 'Times New Roman', Times, serif;
-    margin: 150px 992px 0px 110px;
-    padding: 20px;
+    margin: 150px 800px 50px 110px;
+    font-size: 18px;
 }
 
-#list-motivatie-crea{
-    margin: 50px 1230px 0px 110px;
-    padding: 10px;
-    list-style-position: inside;
-}
-
-#img-pink-error{
+#programming-experience{
     float: right;
-    margin: 0px 110px 900px 0px;
+    margin: 95px 200px 0px 0px;
     border: solid 35px white;
     border-radius: 10px;
+    background-color: white;
     box-shadow: 10px 10px #f5c6e5;
 }
 
 /* footer for all pages */
 footer{
     border: solid 1px #df5d9a;
-    border-radius: 10px;
     background-color: #df5d9a;
 }
 
@@ -82,64 +72,38 @@ footer{
 /* profile page */
 .profile-header{ 
     text-align: left;
-    margin: 20px 30px 20px 30px;
-    padding: 10px;
+    margin: 50px 760px 0px 100px;
 }
 
-.list-header-profiel{
+.list-profiel{
     list-style-type: none;
 }
 
+#ik-skilift-img{
+    float: right;
+}
+
 .waar-kamer{ 
-    margin: 20px 30px 20px 30px;
-    padding: 10px;
+    float: right;
+    margin: 50px 100px 0px 100px;
 }
 
 .familie{
-    margin: 20px 30px 20px 30px;
-    padding: 10px;
+    margin: 68px 760px 0px 100px;
 }
 
-div.gallery{
-    margin-left: 115px;
-    margin-bottom: 20px;
-    border: 2px solid #f5c6e5;
-    float: left;
-    width: 200px;
-}
-
-div.gallery img{
-    width: 100%;
-    height: auto;
-}
-
-div.gallery2{
-    margin-left: 115px;
-    margin-bottom: 90px;
-    margin-right: 500px;
-    border: 2px solid #f5c6e5;
-    float: left;
-    width: 200px;
-}
-
-div.gallery2 img{
-    width: 100%;
-    height: auto;
-}
-
-div.desc{
-    padding: 5px;
-    text-align: center;
+#familie-img{
+    margin: 10px 1130px 0px 100px;
+    display: flex;
+    margin: 50px 0px 0px 100px;
 }
 
 .persoonlijkheid{
-    margin: 20px 30px 20px 30px;
-    padding: 10px;
+    margin: 50px 1050px 0px 100px;
 }
 
 .hobbies{ 
-    margin: 20px 30px 20px 30px;
-    padding: 10px;
+    margin: 50px 30px 50px 100px;
 }
 
 /* dashboard */
