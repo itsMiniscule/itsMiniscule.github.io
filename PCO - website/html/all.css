@@ -47,7 +47,7 @@
     font-size: 18px;
 }
 
-#programming-experience{
+#programmeren-meme{
     float: right;
     margin: 95px 200px 0px 0px;
     border: solid 35px white;
@@ -242,12 +242,32 @@ tr:nth-child(even){
     margin-bottom: 20px;
 }
 
-
-.blog{
-    margin: 0;
+.blog-position-main{
+    margin: 50px 130px 50px 230px;
+    padding-bottom: 20px;
 }
 
+.blog-post-position{
+    margin-bottom: 20px;
+}
 
+.blog-page{
+    margin: 50px 130px 50px 230px;
+}
+
+h2{
+    text-align: center;
+}
+
+#back-to-blog{
+    margin: 0px 0px 0px 0px;
+    font-size: 16px;
+    border-bottom: #df5d9a; /* waarom werkt het niet? */
+    text-decoration: none;
+    color: #df5d9a; 
+}
+
+/* surprise */
 .random{
     margin: 0;
 }
