@@ -25,7 +25,7 @@ nav{
 
 .nav-links li{
     display: inline-block;
-    margin: 0 15px;
+    margin: 0 30px;
 }
 
 .nav-links li a{
@@ -45,7 +45,7 @@ nav{
     left: 0;
     transition: width 0.5s;
 }
-
+  
 .nav-links li a:hover::after{
     width: 100%;
 }

@@ -1,30 +1,67 @@
 <!DOCTYPE html>
 <html> 
-  <head>  
-    <title>my profile assignment</title>
-      <link rel="stylesheet" type="text/css" href="main.css">
-      <link rel="stylesheet" type="text/css" href="all.css">
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>        
+    <title>Countdown to Christmas</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" type="text/css" href="all.css">
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+      <style>
+        body {
+          font-family: Arial, sans-serif;
+          text-align: center;
+          background: #ffc1de;
+        }
+        #countdown {
+          font-size: 24px;
+        }
+      </style>
   </head>
        
-  <body class="body">
-       <nav class="nav-bar">
-        <h2>Surpise</h2> 
-          <ul class="nav-links">
-            <li><a href="index.html">Home Page</a></li>
-            <li><a href="profile.html">Profile</a></li>
-            <li><a href="dashboard.html">Dashboard</a></li>
-            <li><a href="frequent-asked-questions.html">FAQ</a></li>
-            <li><a href="blog.html">Blog</a></li>
-            <li class="btn"><a href="surprise.html">♥</a></li>
-          </ul>
-       </nav>
-    </div>
+  <body class="body">        
+    <nav class="nav-bar">
+      <h2>Surpise</h2> 
+      <ul class="nav-links">
+        <li><a href="index.html">Home Page</a></li>
+        <li><a href="profile.html">Profile</a></li>
+        <li><a href="dashboard.html">Dashboard</a></li>
+        <li><a href="frequent-asked-questions.html">FAQ</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li class="btn"><a href="surprise.html">♥</a></li>
+      </ul>
+    </nav>
+  
+    <h1 style="margin-top: 280px;">Countdown to Christmas</h1>
+    <div id="countdown"></div>
+    
+      <script>
+        // Set the date for Christmas
+        const christmasDate = new Date('December 25, 2023 00:00:00').getTime();
+    
+        // Update the countdown every second
+        const countdown = setInterval(function() {
+          const now = new Date().getTime();
+          const timeLeft = christmasDate - now;
+    
+          const days = Math.floor(timeLeft / (1000 * 60 * 60 * 24));
+          const hours = Math.floor((timeLeft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+          const minutes = Math.floor((timeLeft % (1000 * 60 * 60)) / (1000 * 60));
+          const seconds = Math.floor((timeLeft % (1000 * 60)) / 1000);
+    
+          const countdownElement = document.getElementById('countdown');
+          countdownElement.innerHTML = `${days}d ${hours}h ${minutes}m ${seconds}s`;
+    
+          // When it's Christmas, display a special message and clear the interval
+          if (timeLeft <= 0) {
+            countdownElement.innerHTML = "Merry Christmas!";
+            clearInterval(countdown);
+          }
+        }, 1000);
+      </script>
 
-    <div class="random"> 
-     <p>dit is een test om te kijken of m'n '♥' werkt. </p> 
-    </div>
+      <p style="margin-top: 100px; color: grey;">(dankjewel chatGPT voor deze geweldige code)</p>
+    </body>    
   </body>
 </html>

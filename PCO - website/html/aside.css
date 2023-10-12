@@ -4,17 +4,17 @@ menu{
 
 aside {
   width: 200px;  
-  height: 360px;
+  height: 240px;
   background-color: #df5d9a;
   box-shadow: 5px 5px 5px #f5c6e5;
   color: #fff;
   position: fixed; 
-  margin: 50px 0px 0px 0px;
+  margin: 60px 0px 0px 0px;
   border-radius: 10px;
 }
 
 li {
-  padding: 10px;
+  padding: 0px;
   text-align: center;
 }
 
@@ -23,8 +23,4 @@ li a {
   color: #fff;
   display: block;
   padding: 10px;
-}
-
-li a:hover {
-  background-color: #ff7fbb;
 }
