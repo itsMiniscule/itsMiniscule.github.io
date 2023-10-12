@@ -316,11 +316,11 @@ tr:nth-child(even){
     font-size: 16px;
 }
 
-#artiekel-ict-fow{
+.artiekel-ict-fow{
     margin: 30px 0px 30px 0px;
 }
 
-#artiekel-ict-fow li{
+.artiekel-ict-fow li{
     list-style-type: square;
     list-style-position: inside;
     text-align: left;
