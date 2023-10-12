@@ -9,7 +9,7 @@
    height: 100px;
    width: 100%;
    padding: 0 8%;
-   background: #ffc1de;
+   background: #B4E7B9;
    position: relative; 
 }
 
@@ -37,7 +37,7 @@ nav{
 
 .nav-links li a::after{
     content: '';
-    background: #df5d9a;
+    background: #228B22;
     width: 0%;
     height: 2px;
     position: absolute;
@@ -51,7 +51,7 @@ nav{
 }
 
 .btn{
-    background: #df5d9a;
+    background: #228B22;
     color: black;
     padding: 10px 30px; 
     border-radius: 3px;
