@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../../ts-clockdisplay-main/ts-clockdisplay-main"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "ts-clockdisplay-complete"
+	}
+}
